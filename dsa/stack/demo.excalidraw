@@ -1,0 +1,48 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "lArI0oc4-7CiKilx4LH6D",
+      "type": "text",
+      "x": 331.6666564941406,
+      "y": 184.1666717529297,
+      "width": 916.5990600585938,
+      "height": 375,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 908829431,
+      "version": 854,
+      "versionNonce": 1754685913,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1731256526326,
+      "link": null,
+      "locked": false,
+      "text": "s = \"(){}[]\"\ns = \"([{}])\"\n\n- First create a Hashmap where the closing bracket maps to the opening bracket.\n- Now iterate through the characters in the string.\n- If the character does not match to the keys of the hashmap i.e. the closing brackets.\n- then add them to the stack.\n- if we come across a closing bracket, we compare it to the top of the stack.\n- in order for the string to be a valid parentheses, the top of the stack should match \n  the the closing bracket key character of the hashmap.\n- if they do not match then return false.\n- after iterating through the string and the stack is empty, we return true. \n- Else if the stack is not empty then we return false since it'll not be a valid parentheses.\n\n",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 368,
+      "containerId": null,
+      "originalText": "s = \"(){}[]\"\ns = \"([{}])\"\n\n- First create a Hashmap where the closing bracket maps to the opening bracket.\n- Now iterate through the characters in the string.\n- If the character does not match to the keys of the hashmap i.e. the closing brackets.\n- then add them to the stack.\n- if we come across a closing bracket, we compare it to the top of the stack.\n- in order for the string to be a valid parentheses, the top of the stack should match \n  the the closing bracket key character of the hashmap.\n- if they do not match then return false.\n- after iterating through the string and the stack is empty, we return true. \n- Else if the stack is not empty then we return false since it'll not be a valid parentheses.\n\n",
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
